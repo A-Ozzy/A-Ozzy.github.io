@@ -1,0 +1,457 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>7 continents</title>
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="css/style.css" />
+		<!-- Кодировка страницы -->
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<div class="body">
+		<div class="wrapper">
+			<section class="header">
+				<div class="container">
+					<div class="header__top top">
+						<div class="top__logo">
+							<img src="icons/main_logo.png" alt="">
+							<div class="top__logo__text">Degree</div> 
+						</div>
+						<div class="top__info">
+							<div class="top__info__icon"><img src="icons/icon_1.png" alt="23232"></div>
+							<div class="top__info__contacts">
+								<div class="top__info__contacts__text">Есть вопросы? Звоните!</div>
+								<a href="tel:88002590936" class="top__info__contacts__phone">8 /800/ 259 09 36</a>
+							</div>
+							<div class="top__burger">
+								<span></span>
+								<div class="top__burger__text">МЕНЮ</div>
+							</div>
+							<nav class="header__menu">
+								<ul class="header__list">
+									<li>
+										<a class="header__link" href="#">Главная</a>
+									</li>
+									<li>
+										<a class="header__link" href="#">вопросы-ответы</a>
+									</li>
+									<li>
+										<a class="header__link" href="#">Новости</a>
+									</li>
+									<li>
+										<a class="header__link" href="#">тарифы</a>
+									</li>
+									<li>
+										<a class="header__link" href="#">личный кабинет</a>
+									</li>
+									<li>
+										<a class="header__link" href="#">Договор публичной оферты</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="header__title">Услиги по 3D моделированию <p>полный спектр услуг</p></div>
+					<div class="header__subtitle">Оставьте заявку сейчас и получите дизайн интерьера 25кв2 бесплатно!*</div>
+					<div class="header__form">
+						<form action="#" method="get">
+							<input type="text" name="username" placeholder="Ваше имя">
+							<input type="text" name="email" placeholder="E-mail">
+							<input type="tel" name="userphone" placeholder="Номер телефона">
+						</form>
+						<div class="header__button">
+							<button class="btn"><span>Оставить заявку!</span></button>
+						</div>
+						<div class="header__note">*Мы гарантируем конфидициальность передаваемых данных</div>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="container">
+					<div class="services__title__box title-box">
+						<div class="services__title title">Наши услуги</div>
+					</div>
+					<div class="services__block">
+						<div class="services__block__text block">
+							<div class="block__subtitle subtitle">Дизайн интерьера</div>
+							<div class="block__text text">Услуга, направленная на разработку интерьеров помещений с целью обеспечить удобство и эстетически приятное ощущение у человека при нахождении в помещении</div>
+							<div class="block__button">
+								<button class="btn"><span>Оставить заявку</span></button>
+							</div>
+						</div>
+						<div class="services__block__image">
+							<img src="img/img_1.jpg" alt="">
+						</div>
+					</div>
+					<div class="services__block">
+						<div class="services__block__image block__image-o">
+							<img src="img/img_2.jpg" alt="">
+						</div>
+						<div class="services__block__text block block__text-o">
+							<div class="block__subtitle subtitle">Дизайн экстерьера</div>
+							<div class="block__text text">Услуга, направленная на разработку дизайна прилегающих элементов зданий, а также дизайн самих зданий, позволяющая обеспечить удобство людей при нахождении на территории</div>
+						</div>
+					</div>
+					<div class="services__block">
+						<div class="services__block__text block">
+							<div class="block__subtitle subtitle">Визуализация</div>
+							<div class="block__text text">Услуга, направленная на разработку дизайна прилегающих элементов зданий, а также дизайн самих зданий, позволяющая обеспечить удобство людей при нахождении на территории</div>
+						</div>
+						<div class="services__block__image">
+							<img src="img/img_3.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="range">	
+				<div class="container">
+					<div class="range__title">Расчитать стоимость</div>
+					<div class="range__subtitle">Расчитайте предварительную стоимость разработки интерьера</div>
+					<div class="range__row row">
+						<div class="row__block">
+							<div class="row__block__range rangeblock">
+								<div class="rangeblock__title title-w">Площадь помещения:</div>
+								<div class="rangeblock__value">
+									<div class="rangeblock__value__point">100m <span>2</span></div>
+									<div class="rangeblock__value__point">10 000m <span>2</span></div>
+									<div class="rangeblock__value__point">250 000m <span>2</span></div>
+									<div class="rangeblock__value__point">500 000m <span>2</span></div>
+								</div>
+								<div class="rangeblock__range">
+									<input type="range" id="father" min="0" max="500 000" step="1">
+								</div>
+							</div>
+							<div class="row__block__buttons buttonsblock">
+								<div class="buttonsblock__title title-w">Выберите пакет:</div>
+								<div class="buttonsblock__button">
+									<button class="btn-t btn-1 ">Light</button>
+									<button class="btn-t btn-2">Medium</button>
+									<button class="btn-t btn-3">Full</button>
+								</div>
+							</div>
+						</div>
+						<div class="row__results results">
+							<div class="results__block resultsblock">
+								<div class="resultsblock__text">Площадь помещения:</div>
+								<div class="resultsblock__value">1 000м<span>2</span></div>
+							</div>
+							<div class="results__block resultsblock">
+								<div class="resultsblock__text">Средняя стоимость м2:</div>
+								<div class="resultsblock__value">4 850 тг.</div>
+							</div>
+							<div class="results__block resultsblock">
+								<div class="resultsblock__text">Средняя стоимость объекта:</div>
+								<div class="resultsblock__value">48 500 тг.</div>
+							</div>
+							<div class="row__button">
+								<button class="btn-w btn"><span>Получить консультацию специалиста</span></button>
+							</div>
+							<div class="row__note">или позвоните нам по телефону:</div>
+							<div class="row__phone">
+								<a href="tel+77273887177" class="phone">+ 7 727 388 71 77</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio">
+				<div class="container">
+					<div class="portfolio__title title">Портфолио</div>
+					<nav class="portfolio__filter filter">
+						<ul class="filter__list">
+							<li data-filter="1" class="filter__item active"><span>все проекты</span></li>
+							<li data-filter="2" class="filter__item"><span>экстерьеры</span></li>
+							<li data-filter="3" class="filter__item"><span>жилые интерьеры</span></li>
+							<li data-filter="4" class="filter__item"><span>общественные интерьеры</span></li>
+						</ul>
+					</nav>
+					<div class="portfolio__row">
+						<div class="portfolio__item f_2">
+							<img src="img/portfolio/img_1.jpg" alt="">
+						</div>
+						<div class="portfolio__item f_3">
+							<img src="img/portfolio/img_2.jpg" alt="">
+						</div>
+						<div class="portfolio__item f_4">
+							<img src="img/portfolio/img_3.jpg" alt="">
+						</div>
+						<div class="portfolio__item f_2">
+							<img src="img/portfolio/img_4.jpg" alt="">
+						</div>
+						<div class="portfolio__item f_3">
+							<img src="img/portfolio/img_5.jpg" alt="">
+						</div>
+						<div class="portfolio__item f_4">
+							<img src="img/portfolio/img_6.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="best">
+				<div class="container">
+					<div class="best__title__box title-box">
+						<div class="best__title title">Почему мы лучшие?</div>
+					</div>
+					<div class="best__row">
+						<div class="best__item">
+							<div class="best__item__icon icon_2">
+								<img src="icons/icon_2.png" alt="">
+							</div>
+							<div class="best__item__text">Профессиональные дизайнеры и визуализаторы с зарубежной практикой работы</div>
+						</div>
+						<div class="best__item">
+							<div class="best__item__icon icon_3">
+								<img src="icons/icon_3.png" alt="">
+							</div>
+							<div class="best__item__text">Интеративный подход, работаем до полного согласования с Вами</div>
+						</div>
+						<div class="best__item">
+							<div class="best__item__icon icon_4">
+								<img src="icons/icon_4.png" alt="">
+							</div>
+							<div class="best__item__text">Решаем вопрос закупки, берем авторский надзор на себя (пакет Full)</div>
+						</div>
+						<div class="best__item">
+							<div class="best__item__icon icon_5">
+								<img src="icons/icon_5.png" alt="">
+							</div>
+							<div class="best__item__text">Над проектом работает группа специалистов под началом project менеджера в ERP системе</div>
+						</div>
+						<div class="best__item">
+							<div class="best__item__icon icon_6">
+								<img src="icons/icon_6.png" alt="">
+							</div>
+							<div class="best__item__text">Выполнение раньше установленных сроков</div>
+						</div>
+						<div class="best__item">
+							<div class="best__item__icon icon_7">
+								<img src="icons/icon_7.png" alt="">
+							</div>
+							<div class="best__item__text">Дарим альбом проекта, вместе с 25% скидкой на следующее обращение</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="process">
+				<div class="container">
+					<div class="process__title__box title-box">
+						<div class="process__title title">Процесс взаимодействия</div>
+					</div>
+					<div class="process__row">
+						<div class="process__item">
+							<div class="process__img">
+								<img src="img/img_4.jpg" alt="">
+							</div>
+							<div class="process__heading">Заполнение брифа</div>
+						</div>
+						<div class="process__item">
+							<div class="process__img process__img-o">
+								<img src="img/img_5.jpg" alt="">
+							</div>
+							<div class="process__heading process__heading-o">Исследование</div>
+						</div>
+						<div class="process__item">
+							<div class="process__img">
+								<img src="img/img_6.jpg" alt="">
+							</div>
+							<div class="process__heading">Идея</div>
+						</div>
+						<div class="process__item">
+							<div class="process__img process__img-o">
+								<img src="img/img_5.jpg" alt="">
+							</div>
+							<div class="process__heading process__heading-o">Завершение</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="team">
+				<div class="container">
+					<div class="team__title__box title-box">
+						<div class="team__title title">Наша команда</div>
+					</div>
+					<div class="team__row">
+						<div class="team__item">
+							<div class="team__item__img">
+								<img src="img/img_8.jpg" alt="">
+							</div>
+							<div class="team__item__name">Ирина Притыкина</div>
+							<div class="team__item__position">Директор компании</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item__img">
+								<img src="img/img_9.jpg" alt="">
+							</div>
+							<div class="team__item__name">Игорь Карий</div>
+							<div class="team__item__position">Финансовый директор</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item__img">
+								<img src="img/img_10.jpg" alt="">
+							</div>
+							<div class="team__item__name">Илья Кондрашин</div>
+							<div class="team__item__position">Инженер модельер</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item__img">
+								<img src="img/img_11.jpg" alt="">
+							</div>
+							<div class="team__item__name">Маргарита Гордеева</div>
+							<div class="team__item__position">3D дизайнер</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item__img">
+								<img src="img/img_12.jpg" alt="">
+							</div>
+							<div class="team__item__name">Светлана Коток</div>
+							<div class="team__item__position">Дизайнер интерьеров</div>
+						</div>
+						<div class="team__item">
+							<div class="team__item__img">
+								<img src="img/img_13.jpg" alt="">
+							</div>
+							<div class="team__item__name">Максим Ковальский</div>
+							<div class="team__item__position">Дизайнер ландшафтов</div>
+						</div>
+					</div>
+					<div class="team__quote quote">
+						<div class="quote__title">Ты - то, что ты делаешь!</div>
+						<div class="quote__text">То, что мы делаем, определяет то, кем мы являемся. Люди чувствуют старание и чувствуют неаккуратность. Это связано с уважением друг к другу, так что небрежность - это неуважение к самому себе.</div>
+						<div class="quote__name">Ислам Куаныш</div>
+						<div class="quote__position">Директор</div>
+					</div>
+				</div>
+			</section>
+			<section class="trust">
+				<div class="container">
+					<div class="trust__title-box">
+						<div class="trust__title">Нам доверяют более 50 компаний</div>
+					</div>
+					<div class="trust__slider">
+						<div class="slider">
+							<div class="slider__box">
+								<img src="icons/slider/img_1.png" alt="slider_1">
+							</div>
+							<div class="slider__box">
+								<img src="icons/slider/img_2.png" alt="slider_2">
+							</div>
+							<div class="slider__box">
+								<img src="icons/slider/img_3.png" alt="slider_3">
+							</div>
+							<div class="slider__box">
+								<img src="icons/slider/img_4.png" alt="slider_4">
+							</div>
+							<div class="slider__box">
+								<img src="icons/slider/img_5.png" alt="slider_5">
+							</div>
+							<div class="slider__box">
+								<img src="icons/slider/img_6.png" alt="slider_6">
+							</div>
+							<div class="slider__box">
+								<img src="icons/slider/img_7.png" alt="slider_7">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="blog">
+				<div class="container">
+					<div class="blog__title__box title-box">
+						<div class="blog__title title">Блог</div>
+					</div>
+					<div class="blog__row">
+						<div class="blog__item">
+							<div class="blog__image">
+								<img src="img/img_14.jpg" alt="">
+							</div>
+							<div class="blog__link">
+								<a href="#">Минимализм – это самый простой, практичный и «спорный» стиль в дизайне интерьеров</a>
+							</div>
+						</div>
+						<div class="blog__item">
+							<div class="blog__image">
+								<img src="img/img_15.jpg" alt="">
+							</div>
+							<div class="blog__link">
+								<a href="#">Прованс - это спокойный южный регион Франции, с великолепнейшей природой</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="form">
+				<div class="container">
+					<div class="form__title__box">
+						<div class="form__title">Остались вопросы?</div>
+					</div>
+					<div class="form__subtitle">Задайте их в форме ниже и наши специалисты свяжуться с Вами!</div>
+					<div class="form__row">
+						<div class="form__type-t">
+							<input type="text" class="form__text" name="username" placeholder="Ваше имя">
+							<input type="text" class="form__text" name="usermail" placeholder="Ваш e-mail">
+							<input type="tel" class="form__tel" name="userphone" placeholder="Ваш номер телефона">
+							<input type="textarea" name="message" placeholder="Ваше сообщение">
+							<div class="form__button">
+								<button class="form__btn btn"><span>Оставить заявку!</span></button>
+							</div>
+						</div>
+						<div class="form__sosiale sosiale">
+							<a href="tel:+78968766677" class="sosiale__phone">+ 7 896 876 66 77</a>
+							<a href="https://api.whatsapp.com/send?phone=78968766000" class="sosiale__watsup">+ 7 896 876 66 77</a>
+							<a href="mailto:sales@23degree.kz" class="sosiale__mail">sales@23degree.kz</a>
+							<a href="skype:[23degree]" class="sosiale__skype">skype: 23degree</a>
+							<a href="tg://resolve?domain=23degree" class="sosiale__telegram">telegram: 23degree</a>
+							<div class="form__schedule">
+								<div class="form__openhouers">График работы: с 9-00 до 18-00. Пн.-Пт.</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</section>
+			<section class="map">
+				<iframe src="https://www.google.com/maps/d/embed?mid=156_ATM72ZRkSR2-wcqAXuOGdhIxV8G57" width="820" height="460"></iframe>
+			</section>
+			<section class="footer">
+				<div class="container">
+					<div class="footer__top">
+						<div class="footer__top__list">
+							<a href="#" class="footer__top__link">Главная</a>
+							<a href="#" class="footer__top__link">Вопросы-ответы</a>
+							<a href="#" class="footer__top__link">Новости</a>
+							<a href="#" class="footer__top__link">Тарифы</a>
+							<a href="#" class="footer__top__link">Личный кабинет</a>
+							<a href="#" class="footer__top__link">Договор публичной оферты</a>
+						</div>
+						<div class="footer__top__sosial sosial">
+							<div class="sosial__text">Мы в социальных сетях:</div>
+							<div class="sosial__icons">
+								<a href="https://www.facebook.com/"class="sosial__link"><img src="icons/sosial/facebook.png" alt=""></a>
+								<a href="https://www.google.com/"class="sosial__link"><img src="icons/sosial/google.png" alt=""></a>
+								<a href="https://www.Instagram.com/"class="sosial__link"><img src="icons/sosial/instagram.png" alt=""></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__bottom__rights">© Kazteleport, 2015. Все права защищены</div>
+						<div class="footer__bottom__label label">
+							<div class="label__text">Создание сайта - </div>
+							<div class="label__icon"><a href="#"><img src="icons/genesis.png" alt=""></a></div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Подключение JQuery -->
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<!-- Подключение SlickSlider -->
+		<script src="js/slick.min.js"></script>
+		<!-- Подключение файл скриптов JS -->
+		<script src="js/script.js"></script>
+	</div>
+</html>
+
